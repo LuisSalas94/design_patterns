@@ -128,3 +128,40 @@ This pattern promotes consistency among products and isolates the client from th
 - 🎥 **YouTube Video – Abstract Factory Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Abstract Factory in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/abstractfactory)
 
+---
+
+## 🏗️ Builder Pattern (Creational)
+
+![builder](https://github.com/user-attachments/assets/1dd0e6d5-8909-466d-91d9-84b4be3e8583)
+
+
+### 📖 Overview
+
+The **Builder** pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations. It provides a step-by-step approach to build objects with many optional parameters or configurations, improving code readability and maintainability.
+
+This pattern is especially useful when creating immutable objects or objects that require elaborate setup.
+
+### 🔧 Purpose
+
+- Construct complex objects step-by-step
+- Allow different representations or configurations of the object
+- Encapsulate the construction logic from the client
+- Support immutable object creation with clarity
+
+---
+
+### 🛠️ When to Use Builder
+
+- When an object requires numerous parameters, especially optional ones
+- When you want to avoid constructors with too many parameters (telescoping constructors)
+- When object construction involves multiple steps or complex assembly
+- When you want to create immutable objects with flexible configurations
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Understanding Builder Pattern in Java**: [Link](https://blog.stackademic.com/creational-patterns-builder-d890e32d9862)
+- 🎥 **YouTube Video – Builder Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Builder in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/builder)
+
