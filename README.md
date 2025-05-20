@@ -235,7 +235,7 @@ This pattern is often used for managing configurations, logging, caches, or thre
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Creational Design Patterns: Singleton**: [Coming Soon](https://blog.stackademic.com/creational-patterns-singleton-a8405e2f3c02)
+- 📄 **Medium Article – Creational Design Patterns: Singleton**: [Link](https://blog.stackademic.com/creational-patterns-singleton-a8405e2f3c02)
 - 🎥 **YouTube Video – Singleton Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Singleton in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/singleton)
 
