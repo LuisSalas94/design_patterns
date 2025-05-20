@@ -90,5 +90,6 @@ Instead of using `new`, the client relies on a **factory method** to create an i
 
 - 📄 **Medium Article – Creational Design Patterns: Factory Method**: [Link](https://medium.com/stackademic/creational-patterns-factory-method-1275963c95ac)
 - 🎥 **YouTube Video – Factory Method Design Pattern Explained**: [Coming Soon](#)
+- 📂 **See the Java implementation**: [Factory Method in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/factory)
 
 ---
