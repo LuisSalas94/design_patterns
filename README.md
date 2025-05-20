@@ -198,7 +198,7 @@ It promotes flexibility by allowing objects to specify their own cloning mechani
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Creational Design Patterns: Prototype**: [Coming Soon](#)
+- 📄 **Medium Article – Creational Design Patterns: Prototype**: [Link](https://blog.stackademic.com/creational-patterns-prototype-5d3acbd2941a)
 - 🎥 **YouTube Video – Prototype Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Prototype in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/prototype)
 
