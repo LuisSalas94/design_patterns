@@ -202,3 +202,42 @@ It promotes flexibility by allowing objects to specify their own cloning mechani
 - 🎥 **YouTube Video – Prototype Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Prototype in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/prototype)
 
+---
+
+## 🏗️ Singleton Pattern (Creational)
+
+![singleton](https://github.com/user-attachments/assets/b74dacf9-3879-4969-ac8a-7b2bfd4ca999)
+
+
+### 📖 Overview
+
+The **Singleton** pattern ensures that a class has only one instance throughout the application lifecycle and provides a global point of access to that instance. It controls object creation to prevent multiple instantiations and guarantees consistent access to shared resources or services.
+
+This pattern is often used for managing configurations, logging, caches, or thread pools.
+
+### 🔧 Purpose
+
+- Restrict the instantiation of a class to a single object
+- Provide a global, well-known access point to the instance
+- Control concurrent access in multithreaded environments (when needed)
+- Manage shared resources consistently
+
+---
+
+### 🛠️ When to Use Singleton
+
+- When exactly one instance of a class is needed throughout the application
+- When you want to coordinate actions across the system via a shared resource or service
+- When you want to implement centralized management of configurations or logging
+- When object lifecycle and resource management require strict control
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Creational Design Patterns: Singleton**: [Coming Soon](https://blog.stackademic.com/creational-patterns-singleton-a8405e2f3c02)
+- 🎥 **YouTube Video – Singleton Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Singleton in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/singleton)
+
+  
+
