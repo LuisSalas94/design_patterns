@@ -58,7 +58,7 @@ Manage communication and control flow between objects.
 
 ---
 
-## 🏗️ Deep Dive: Factory Method (Creational)
+## 🏗️Factory Method (Creational)
 
 ![factory method](https://github.com/user-attachments/assets/2651e613-964d-437e-bd56-bb785e5ac30f)
 
