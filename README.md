@@ -93,3 +93,38 @@ Instead of using `new`, the client relies on a **factory method** to create an i
 - 📂 **See the Java implementation**: [Factory Method in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/factory)
 
 ---
+
+## 🏗️ Abstract Factory Pattern (Creational)
+
+![abstract method](https://github.com/user-attachments/assets/1a33439e-e4b7-48b3-9952-77843ce25761)
+
+
+### 📖 Overview
+
+The **Abstract Factory** pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. It encapsulates a group of individual factories that have a common theme, ensuring that products created by one factory are compatible with each other.
+
+This pattern promotes consistency among products and isolates the client from the details of concrete implementations.
+
+### 🔧 Purpose
+
+- Provide an interface for creating related objects without specifying their concrete classes
+- Ensure that families of products are used together consistently
+- Support **Open/Closed Principle** by allowing new product families to be introduced without changing existing code
+
+---
+
+### 🛠️ When to Use Abstract Factory
+
+- When your system needs to work with multiple families of related products
+- When you want to enforce that products from different families are not mixed
+- When the client should be decoupled from the creation of objects
+- When you want to isolate the concrete classes that are instantiated from the client code
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Understanding Abstract Factory in Java**: [Link](https://blog.stackademic.com/creational-patterns-abstract-factory-a704f0271111)
+- 🎥 **YouTube Video – Abstract Factory Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Abstract Factory in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/abstractfactory)
+
