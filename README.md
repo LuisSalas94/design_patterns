@@ -124,7 +124,7 @@ This pattern promotes consistency among products and isolates the client from th
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Understanding Abstract Factory in Java**: [Link](https://blog.stackademic.com/creational-patterns-abstract-factory-a704f0271111)
+- 📄 **Medium Article – Creational Design Patterns: Abstract Factory**: [Link](https://blog.stackademic.com/creational-patterns-abstract-factory-a704f0271111)
 - 🎥 **YouTube Video – Abstract Factory Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Abstract Factory in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/abstractfactory)
 
@@ -161,7 +161,44 @@ This pattern is especially useful when creating immutable objects or objects tha
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Understanding Builder Pattern in Java**: [Link](https://blog.stackademic.com/creational-patterns-builder-d890e32d9862)
+- 📄 **Medium Article – Creational Design Patterns: Builder**: [Link](https://blog.stackademic.com/creational-patterns-builder-d890e32d9862)
 - 🎥 **YouTube Video – Builder Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Builder in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/builder)
+
+---
+
+## 🏗️ Prototype Pattern (Creational)
+
+![prototype](https://github.com/user-attachments/assets/7d87f1d6-3d10-4cb3-a3e8-4b082b92a2cb)
+
+
+### 📖 Overview
+
+The **Prototype** pattern creates new objects by cloning existing instances, rather than creating new objects from scratch. This approach is useful when object creation is costly or complex. By copying a prototype, you can produce new objects efficiently while preserving the original’s state.
+
+It promotes flexibility by allowing objects to specify their own cloning mechanism.
+
+### 🔧 Purpose
+
+- Create new objects by copying existing ones
+- Avoid the overhead of building complex objects from scratch
+- Enable dynamic configuration and customization of cloned objects
+- Decouple clients from specific classes of objects they need to instantiate
+
+---
+
+### 🛠️ When to Use Prototype
+
+- When object creation is expensive or resource-intensive
+- When you want to avoid subclasses and instead clone existing objects
+- When the system should be independent of how its products are created, composed, and represented
+- When you need to dynamically add or remove objects at runtime by cloning prototypes
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Creational Design Patterns: Prototype**: [Coming Soon](#)
+- 🎥 **YouTube Video – Prototype Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Prototype in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/prototype)
 
