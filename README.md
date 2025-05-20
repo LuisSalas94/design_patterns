@@ -88,7 +88,7 @@ Instead of using `new`, the client relies on a **factory method** to create an i
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Creational Design Patterns: Factory Method**: [Coming Soon](https://medium.com/stackademic/creational-patterns-factory-method-1275963c95ac)
+- 📄 **Medium Article – Creational Design Patterns: Factory Method**: [Link](https://medium.com/stackademic/creational-patterns-factory-method-1275963c95ac)
 - 🎥 **YouTube Video – Factory Method Design Pattern Explained**: [Coming Soon](#)
 
 ---
