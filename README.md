@@ -239,5 +239,77 @@ This pattern is often used for managing configurations, logging, caches, or thre
 - 🎥 **YouTube Video – Singleton Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Singleton in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/creational/singleton)
 
-  
+---
+
+## 🧱 Adapter Pattern (Structural)
+
+![adapter](https://github.com/user-attachments/assets/463e5413-3433-48a1-b0a7-f58c53b411b6)
+
+
+### 📖 Overview
+
+The **Adapter** pattern allows incompatible interfaces to work together by acting as a bridge between them. It converts the interface of a class into another interface that the client expects. This is especially useful when integrating legacy code or third-party libraries that don’t match your current design.
+
+The Adapter promotes reusability by enabling existing classes to be used without modification.
+
+### 🔧 Purpose
+
+- Translate one interface into another expected by the client
+- Promote code reuse without altering existing classes
+- Facilitate integration of incompatible or legacy components
+- Adhere to the **Single Responsibility** and **Open/Closed** principles
+
+---
+
+### 🛠️ When to Use Adapter
+
+- When you want to use an existing class, but its interface does not match what you need
+- When integrating with third-party or legacy APIs
+- When converting data or behavior between systems with different interfaces
+- When refactoring old code to conform to a new architecture
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Adapter**: [Link](https://blog.stackademic.com/structural-design-patterns-adapter-d5440ef352b2)
+- 🎥 **YouTube Video – Adapter Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Adapter in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/adapter)
+
+---
+
+## 🧱 Bridge Pattern (Structural)
+
+![bridge](https://github.com/user-attachments/assets/b2706109-c8e9-4d14-a338-b65625dff915)
+
+
+### 📖 Overview
+
+The **Bridge** pattern decouples an abstraction from its implementation so that the two can evolve independently. It separates the object’s interface (abstraction) from its actual behavior (implementation) by using composition instead of inheritance.
+
+This pattern is ideal when both the abstractions and their implementations are expected to change or grow over time.
+
+### 🔧 Purpose
+
+- Separate abstraction from implementation to allow independent evolution
+- Avoid tight coupling between interface and implementation
+- Promote flexibility and scalability through composition
+- Comply with the **Open/Closed Principle** and **Single Responsibility Principle**
+
+---
+
+### 🛠️ When to Use Bridge
+
+- When you want to avoid a proliferation of subclasses due to multiple dimensions of variation
+- When abstraction and implementation should be able to vary independently
+- When you need to switch implementations at runtime or use different implementations in different contexts
+- When working with platforms, devices, or backends that may vary
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Bridge**: [Link](https://blog.stackademic.com/structural-design-patterns-bridge-44d8dd6885cb)
+- 🎥 **YouTube Video – Bridge Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Bridge in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/bridge)
 
