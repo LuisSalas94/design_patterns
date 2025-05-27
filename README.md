@@ -350,4 +350,41 @@ It simplifies client code by abstracting away the difference between leaf and co
 - 🎥 **YouTube Video – Composite Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Composite in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/composite)
 
+---
+## 🧱 Decorator Pattern (Structural)
+
+![decorator](https://github.com/user-attachments/assets/dd9adaab-9cfc-426d-97ba-e9cc52328a0a)
+
+
+### 📖 Overview
+
+The **Decorator** pattern allows behavior to be added to individual objects dynamically, without affecting the behavior of other objects from the same class. It achieves this by wrapping objects with other objects that implement the same interface.
+
+This pattern promotes flexibility and adheres to the **Open/Closed Principle**, making it a powerful alternative to subclassing for extending functionality.
+
+### 🔧 Purpose
+
+- Add new responsibilities to objects dynamically
+- Avoid class explosion from too many subclasses
+- Promote composition over inheritance
+- Extend behavior without modifying the original object
+
+---
+
+### 🛠️ When to Use Decorator
+
+- When you want to add behavior to objects without modifying their class
+- When you want to avoid creating subclasses for every possible feature combination
+- When extension should be applied to selected instances only
+- When responsibilities need to be composed in various flexible combinations
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Decorator**: [Link](https://blog.stackademic.com/structural-design-patterns-decorator-ff0c2aaf91d5)
+- 🎥 **YouTube Video – Decorator Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Decorator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/decorator)
+
+
 
