@@ -604,5 +604,153 @@ This pattern is fundamental in collection processing and is widely supported in 
 - 🎥 **YouTube Video – Iterator Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Iterator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/iterator)
 
+---
+
+## 🧳 Memento Pattern (Behavioral)
+
+![memento](https://github.com/user-attachments/assets/44c2593b-fd1e-4d05-b9e9-c02e587a6492)
+
+
+### 📖 Overview
+
+The **Memento** pattern captures and externalizes an object's internal state so that the object can be restored to that state later—without violating encapsulation. It is especially useful for implementing features like undo/redo, checkpoints, or history tracking.
+
+The pattern involves three key roles: the **Originator** (the object whose state needs saving), the **Memento** (a snapshot of the state), and the **Caretaker** (which manages the memento).
+
+### 🔧 Purpose
+
+- Save and restore an object’s state without exposing internal details
+- Enable undo/redo or rollback functionality
+- Preserve encapsulation boundaries while providing recovery options
+- Decouple state management from application logic
+
+---
+
+### 🛠️ When to Use Memento
+
+- When implementing undo/redo or rollback features
+- When an object's internal state changes over time and you want to restore previous states
+- When you need to preserve object integrity while providing state snapshots
+- When storing checkpoints or snapshots of system state during runtime
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Memento**: [Link](#)
+- 🎥 **YouTube Video – Memento Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Memento in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/memento)
+
+---
+
+## 👀 Observer Pattern (Behavioral)
+
+![observer](https://github.com/user-attachments/assets/f03af41f-732f-404c-93db-8f7011496c30)
+
+
+### 📖 Overview
+
+The **Observer** pattern defines a one-to-many dependency between objects so that when one object (the **Subject**) changes state, all its dependents (the **Observers**) are notified and updated automatically. This promotes loose coupling and dynamic event-driven communication between components.
+
+It is widely used in UI frameworks, event handling systems, and reactive programming.
+
+### 🔧 Purpose
+
+- Establish a publish-subscribe relationship between objects
+- Decouple subjects from their observers
+- Allow dynamic registration and deregistration of observers
+- Enable automatic and consistent state updates
+
+---
+
+### 🛠️ When to Use Observer
+
+- When multiple objects need to be updated whenever another object changes
+- When you want to avoid tight coupling between subject and observers
+- When building event-driven or reactive systems
+- When implementing notification services, data bindings, or messaging systems
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Observer**: [Link](#)
+- 🎥 **YouTube Video – Observer Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Observer in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/observer)
+
+---
+## 🎭 State Pattern (Behavioral)
+
+![state](https://github.com/user-attachments/assets/d07185bd-d990-410e-b359-51f362dbe3c6)
+
+
+### 📖 Overview
+
+The **State** pattern allows an object to change its behavior when its internal state changes, appearing to change its class. It encapsulates state-specific behavior into separate state classes and delegates state-dependent behavior to the current state.
+
+This pattern promotes the **Single Responsibility** and **Open/Closed** principles by organizing behaviors around states rather than cluttering conditional logic.
+
+### 🔧 Purpose
+
+- Allow an object to alter its behavior when its internal state changes
+- Eliminate large conditional statements (e.g., `if-else` or `switch`)
+- Encapsulate state-specific behavior in dedicated classes
+- Promote better cohesion and separation of concerns
+
+---
+
+### 🛠️ When to Use State
+
+- When an object's behavior depends on its state, and it must change at runtime
+- When using a lot of conditional logic to manage behavior transitions
+- When you want to encapsulate and isolate state-specific logic
+- When different states should be treated as first-class objects with their own behavior
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: State**: [Link](#)
+- 🎥 **YouTube Video – State Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [State in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/state)
+
+---
+
+## 🧠 Strategy Pattern (Behavioral)
+
+![strategy](https://github.com/user-attachments/assets/fda531dc-4b05-40b0-9f65-0f5399846892)
+
+
+### 📖 Overview
+
+The **Strategy** pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from the clients that use it.
+
+This pattern promotes flexibility and adherence to the **Open/Closed Principle**, making it easy to introduce new strategies without altering existing code.
+
+### 🔧 Purpose
+
+- Define a common interface for a set of interchangeable behaviors (algorithms)
+- Enable the selection of behavior at runtime
+- Eliminate conditional logic (e.g., `if-else`) for choosing an algorithm
+- Promote composition over inheritance by injecting behavior
+
+---
+
+### 🛠️ When to Use Strategy
+
+- When you have multiple algorithms or behaviors that can be swapped dynamically
+- When different clients might require different variations of a behavior
+- When you want to isolate the logic of an algorithm from the context in which it’s used
+- When you're refactoring complex conditional statements into clean, modular code
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – 
+Behavioral Design Patterns: Strategy**: [Link](#)
+- 🎥 **YouTube Video – Strategy Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Strategy in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/strategy)
+
 
 
