@@ -752,5 +752,78 @@ Behavioral Design Patterns: Strategy**: [Link](#)
 - 🎥 **YouTube Video – Strategy Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Strategy in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/strategy)
 
+---
+
+## 🧬 Template Method Pattern (Behavioral)
+
+![template method](https://github.com/user-attachments/assets/261439ff-7d4d-4c28-8074-97d091c7f270)
+
+
+### 📖 Overview
+
+The **Template Method** pattern defines the skeleton of an algorithm in a base class but lets subclasses override specific steps without changing the overall structure. This promotes code reuse and enforces a consistent workflow across different implementations.
+
+It follows the **Hollywood Principle**: “Don’t call us, we’ll call you.”
+
+### 🔧 Purpose
+
+- Define the invariant parts of an algorithm once and let subclasses implement the variable parts
+- Promote reuse of common behavior while allowing customization of specific steps
+- Control the order and structure of operations across multiple implementations
+- Avoid code duplication in closely related classes
+
+---
+
+### 🛠️ When to Use Template Method
+
+- When multiple classes share the same algorithm structure but differ in specific steps
+- When you want to enforce a particular sequence of operations
+- When refactoring duplicated code across subclasses with similar workflows
+- When using frameworks that define lifecycle hooks (common in UI or testing frameworks)
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Template Method**: [Link](#)
+- 🎥 **YouTube Video – Template Method Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Template Method in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/templatemethod)
+
+---
+
+## 🧳 Visitor Pattern (Behavioral)
+
+![visitor](https://github.com/user-attachments/assets/b5220a54-b696-45b9-9000-b10ea36f31b1)
+
+
+### 📖 Overview
+
+The **Visitor** pattern lets you define a new operation without changing the classes of the elements on which it operates. It separates algorithms from the objects on which they operate, enabling you to add new behaviors to object structures without modifying them.
+
+This pattern is especially useful when working with composite object structures or class hierarchies.
+
+### 🔧 Purpose
+
+- Separate an algorithm from the object structure it operates on
+- Add new operations without modifying existing object structures
+- Follow the **Open/Closed Principle** for adding behavior
+- Promote cleaner organization of complex behaviors across multiple types
+
+---
+
+### 🛠️ When to Use Visitor
+
+- When you need to perform operations across a complex object structure (e.g., AST, DOM, or file system)
+- When the object structure rarely changes but new behaviors are frequently added
+- When behavior depends on both object type and context (i.e., double dispatch)
+- When centralizing related operations across different types enhances maintainability
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Visitor**: [Lnk](#)
+- 🎥 **YouTube Video – Visitor Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Visitor in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/visitor)
 
 
