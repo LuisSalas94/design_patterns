@@ -568,5 +568,41 @@ This pattern is useful for implementing undo/redo operations, transactional syst
 - 🎥 **YouTube Video – Command Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Command in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/command)
 
+---
+
+## 🔁 Iterator Pattern (Behavioral)
+
+![iterator](https://github.com/user-attachments/assets/e1249e13-f69f-4886-9538-bb0924801be2)
+
+### 📖 Overview
+
+The **Iterator** pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. It promotes encapsulation and supports uniform traversal of different types of collections.
+
+This pattern is fundamental in collection processing and is widely supported in the Java Collections Framework through the `Iterator` and `Iterable` interfaces.
+
+### 🔧 Purpose
+
+- Traverse complex data structures without exposing internal details
+- Provide a standard interface for sequential access
+- Support multiple traversals simultaneously or in different ways
+- Promote separation of concerns between data structures and iteration logic
+
+---
+
+### 🛠️ When to Use Iterator
+
+- When you need to iterate over a collection without exposing its internal structure
+- When different traversal algorithms are required (e.g., forward, reverse, filtering)
+- When supporting multiple concurrent or nested iterations
+- When collections need to offer a uniform traversal interface
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Iterator**: [Link](#)
+- 🎥 **YouTube Video – Iterator Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Iterator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/iterator)
+
 
 
