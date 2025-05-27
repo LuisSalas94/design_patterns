@@ -494,4 +494,41 @@ This pattern is useful when direct access to the real object is undesirable or c
 - 🎥 **YouTube Video – Proxy Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Proxy in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/proxy)
 
+---
+
+## 🔗 Chain of Responsibility Pattern (Behavioral)
+
+![chain of responsibility](https://github.com/user-attachments/assets/f7ed4d73-038d-4a30-8688-e90776f739e2)
+
+
+### 📖 Overview
+
+The **Chain of Responsibility** pattern allows a request to pass through a chain of handlers until one of them handles it. Each handler in the chain either processes the request or forwards it to the next handler. This decouples senders and receivers, promoting flexibility in assigning responsibilities.
+
+It’s particularly useful when multiple objects can handle a request and you don’t want to hard-code the handler logic.
+
+### 🔧 Purpose
+
+- Decouple the sender of a request from its potential receivers
+- Allow multiple objects a chance to handle the request
+- Promote loose coupling and open-ended processing chains
+- Enhance flexibility by dynamically changing the chain at runtime
+
+---
+
+### 🛠️ When to Use Chain of Responsibility
+
+- When multiple objects can handle a request, but the handler isn’t known in advance
+- When you want to process a request through multiple stages or filters
+- When the set of handlers needs to be dynamic or configurable
+- When you want to avoid tightly coupled conditional logic (e.g., large `if-else` or `switch` statements)
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Chain Of Responsibility**: [Link](https://blog.stackademic.com/behavioral-design-patterns-chain-of-responsibility-26d924b2df2b)
+- 🎥 **YouTube Video – Chain of Responsibility Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Chain of Responsibility in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/chainofresponsibility)
+
 
