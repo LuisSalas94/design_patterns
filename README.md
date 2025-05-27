@@ -603,7 +603,7 @@ This pattern is fundamental in collection processing and is widely supported in 
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Iterator**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Iterator**: [Link](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-iterator-e3ba8eaf2c4a)
 - 🎥 **YouTube Video – Iterator Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Iterator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/iterator)
 
@@ -639,7 +639,7 @@ Instead of having components communicate directly, they delegate interaction log
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Understanding Mediator Pattern in Java**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Mediator**: [Link](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-mediator-f8be75a89ba2?source=user_profile_page---------1-------------6f7f0ea334b7----------------------)
 - 🎥 **YouTube Video – Mediator Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Mediator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/mediator)
 
@@ -676,7 +676,7 @@ The pattern involves three key roles: the **Originator** (the object whose state
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Memento**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Memento**: [Link](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-memento-95895cfdb49c)
 - 🎥 **YouTube Video – Memento Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Memento in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/memento)
 
