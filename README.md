@@ -464,6 +464,9 @@ This pattern is ideal when working with large numbers of similar objects, such a
 
 ## 🧱 Proxy Pattern (Structural)
 
+![proxy](https://github.com/user-attachments/assets/ad033245-5862-4b17-81f5-adb955f743be)
+
+
 ### 📖 Overview
 
 The **Proxy** pattern provides a surrogate or placeholder for another object to control access to it. It acts as an intermediary that can perform additional logic—such as lazy initialization, logging, access control, or remote access—before delegating requests to the actual object.
