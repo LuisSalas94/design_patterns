@@ -531,4 +531,42 @@ It’s particularly useful when multiple objects can handle a request and you do
 - 🎥 **YouTube Video – Chain of Responsibility Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Chain of Responsibility in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/chainofresponsibility)
 
+---
+
+## 🧾 Command Pattern (Behavioral)
+
+![command](https://github.com/user-attachments/assets/2650cf54-ae75-464e-8330-c8d7d16c1f09)
+
+
+### 📖 Overview
+
+The **Command** pattern encapsulates a request as an object, thereby allowing parameterization of clients with different requests, queuing of requests, and logging of operations. It decouples the object that invokes the operation from the one that knows how to perform it.
+
+This pattern is useful for implementing undo/redo operations, transactional systems, and task queues.
+
+### 🔧 Purpose
+
+- Encapsulate a request as an object
+- Decouple the sender and receiver of a request
+- Allow queuing, logging, and undo/redo of operations
+- Enable dynamic assignment of behavior at runtime
+
+---
+
+### 🛠️ When to Use Command
+
+- When you need to parameterize objects with operations
+- When requests need to be handled at different times or in different orders (e.g., queues)
+- When implementing features like undo/redo, logging, or transactional behavior
+- When multiple invokers can trigger the same actions in different ways
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Behavioral Design Patterns: Command**: [Link](https://blog.stackademic.com/behavioral-design-patterns-command-b8168eb74bd7?source=user_profile_page---------0-------------6f7f0ea334b7----------------------)
+- 🎥 **YouTube Video – Command Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Command in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/command)
+
+
 
