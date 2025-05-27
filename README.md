@@ -423,5 +423,44 @@ It’s particularly useful in layered architectures or when working with legacy 
 - 🎥 **YouTube Video – Facade Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Facade in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/facade)
 
+---
+
+## 🧱 Flyweight Pattern (Structural)
+
+![flyweight](https://github.com/user-attachments/assets/5ab0652d-14c2-4225-99a2-723c24aa048a)
+
+
+### 📖 Overview
+
+The **Flyweight** pattern is used to minimize memory usage or computational costs by sharing as much data as possible with similar objects. It separates intrinsic (shared) state from extrinsic (context-specific) state, allowing many objects to reuse common data.
+
+This pattern is ideal when working with large numbers of similar objects, such as in graphical applications, text editors, or caching systems.
+
+### 🔧 Purpose
+
+- Reduce memory footprint by sharing common data between objects
+- Improve performance when instantiating many similar objects
+- Separate shared (intrinsic) and unique (extrinsic) state
+- Promote efficient resource usage without sacrificing object-oriented design
+
+---
+
+### 🛠️ When to Use Flyweight
+
+- When an application needs to create a large number of similar objects
+- When object instantiation is costly in terms of memory or performance
+- When most object data can be shared rather than duplicated
+- When external state can be passed in to avoid storing it inside the object
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Flyweight**: [Link](https://blog.stackademic.com/structural-design-patterns-flyweight-696a260f17ed)
+- 🎥 **YouTube Video – Flyweight Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Flyweight in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/flyweight)
+
+---
+
 
 
