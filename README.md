@@ -608,6 +608,42 @@ This pattern is fundamental in collection processing and is widely supported in 
 - 📂 See the Java implementation: [Iterator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/iterator)
 
 ---
+## 🗣️ Mediator Pattern (Behavioral)
+
+![mediator](https://github.com/user-attachments/assets/b24d21a8-993c-4733-88ad-83986f0dd170)
+
+
+### 📖 Overview
+
+The **Mediator** pattern defines an object that encapsulates how a set of objects interact. It promotes loose coupling by keeping objects from referring to each other explicitly, allowing you to vary their interactions independently.
+
+Instead of having components communicate directly, they delegate interaction logic to a central **Mediator**, improving maintainability and reducing complexity in tightly connected systems.
+
+### 🔧 Purpose
+
+- Centralize complex communications and control logic between related objects
+- Reduce direct dependencies among components
+- Simplify maintenance and promote low coupling
+- Promote a **many-to-many relationship** as a **one-to-many** relationship via the mediator
+
+---
+
+### 🛠️ When to Use Mediator
+
+- When a system has a complex set of interactions between many objects
+- When object references and dependencies have become overly entangled
+- When you want to separate communication logic from the actual components
+- When you want to improve the reusability of components by decoupling them
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Understanding Mediator Pattern in Java**: [Link](#)
+- 🎥 **YouTube Video – Mediator Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Mediator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/mediator)
+
+---
 
 ## 🧳 Memento Pattern (Behavioral)
 
