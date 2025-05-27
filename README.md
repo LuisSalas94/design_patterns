@@ -313,3 +313,36 @@ This pattern is ideal when both the abstractions and their implementations are e
 - 🎥 **YouTube Video – Bridge Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Bridge in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/bridge)
 
+## 🧱 Composite Pattern (Structural)
+
+### 📖 Overview
+
+The **Composite** pattern composes objects into tree-like structures to represent part-whole hierarchies. It lets clients treat individual objects and compositions of objects uniformly. This is useful when you need to work with recursive structures like file systems, UI components, or organizational charts.
+
+It simplifies client code by abstracting away the difference between leaf and composite nodes.
+
+### 🔧 Purpose
+
+- Represent part-whole hierarchies with uniform interfaces
+- Treat individual objects and groups of objects the same way
+- Simplify recursive structures through polymorphism
+- Promote consistency and transparency in object management
+
+---
+
+### 🛠️ When to Use Composite
+
+- When you need to represent hierarchical structures (e.g., trees, folders, UI components)
+- When clients should treat simple (leaf) and complex (composite) objects uniformly
+- When you want to simplify code that deals with group/individual logic
+- When operations should apply recursively across object structures
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Composite**: [Link](https://blog.stackademic.com/structural-design-patterns-composite-646b758c0783)
+- 🎥 **YouTube Video – Composite Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Composite in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/composite)
+
+
