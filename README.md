@@ -313,7 +313,12 @@ This pattern is ideal when both the abstractions and their implementations are e
 - 🎥 **YouTube Video – Bridge Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Bridge in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/bridge)
 
+---
+
 ## 🧱 Composite Pattern (Structural)
+
+![composite](https://github.com/user-attachments/assets/ae658bf3-8ca4-4d11-a253-10bb020e3767)
+
 
 ### 📖 Overview
 
