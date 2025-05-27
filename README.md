@@ -462,5 +462,36 @@ This pattern is ideal when working with large numbers of similar objects, such a
 
 ---
 
+## 🧱 Proxy Pattern (Structural)
+
+### 📖 Overview
+
+The **Proxy** pattern provides a surrogate or placeholder for another object to control access to it. It acts as an intermediary that can perform additional logic—such as lazy initialization, logging, access control, or remote access—before delegating requests to the actual object.
+
+This pattern is useful when direct access to the real object is undesirable or costly.
+
+### 🔧 Purpose
+
+- Control access to an object
+- Add additional behavior (e.g., caching, logging, security) without changing the real object
+- Delay object creation or loading until it's actually needed (lazy loading)
+- Represent remote objects or resource-intensive services transparently
+
+---
+
+### 🛠️ When to Use Proxy
+
+- When you need to manage access to a resource-heavy or sensitive object
+- When you want to introduce additional responsibilities (like logging or permissions) transparently
+- When working with remote services (Remote Proxy) or expensive operations (Virtual Proxy)
+- When you want to defer object instantiation until it's actually required
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Proxy**: [Link](https://blog.stackademic.com/structural-design-patterns-proxi-a7fc90ac60b9)
+- 🎥 **YouTube Video – Proxy Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Proxy in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/proxy)
 
 
