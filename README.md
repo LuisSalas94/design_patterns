@@ -386,5 +386,42 @@ This pattern promotes flexibility and adheres to the **Open/Closed Principle**, 
 - 🎥 **YouTube Video – Decorator Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Decorator in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/decorator)
 
+---
+
+## 🧱 Facade Pattern (Structural)
+
+![facade](https://github.com/user-attachments/assets/fda40fe4-fe7e-46d2-bf94-63406914792c)
+
+
+### 📖 Overview
+
+The **Facade** pattern provides a simplified, unified interface to a complex subsystem. It hides the complexities of the underlying components and exposes only the necessary parts to the client, making the system easier to use and understand.
+
+It’s particularly useful in layered architectures or when working with legacy systems.
+
+### 🔧 Purpose
+
+- Simplify access to a complex subsystem
+- Provide a cleaner, higher-level interface to reduce coupling
+- Improve readability and maintainability by hiding internal details
+- Support separation of concerns by encapsulating interactions
+
+---
+
+### 🛠️ When to Use Facade
+
+- When working with a complex system or API that should be easier to use
+- When you want to decouple a client from the internal workings of a subsystem
+- When integrating legacy systems or external services with messy interfaces
+- When enforcing a consistent interaction point for a subsystem
+
+---
+
+### 📚 Learn More
+
+- 📄 **Medium Article – Structural Design Patterns: Facade**: [Link](https://blog.stackademic.com/structural-design-patterns-facade-d431c6acf866)
+- 🎥 **YouTube Video – Facade Design Pattern Explained**: [Coming Soon](#)
+- 📂 See the Java implementation: [Facade in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/structural/facade)
+
 
 
