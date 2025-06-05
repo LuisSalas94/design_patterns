@@ -713,7 +713,7 @@ It is widely used in UI frameworks, event handling systems, and reactive program
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Observer**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Observer**: [Link](https://blog.stackademic.com/behavioral-design-patterns-observer-455db318b3a0)
 - 🎥 **YouTube Video – Observer Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Observer in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/observer)
 
@@ -749,7 +749,7 @@ This pattern promotes the **Single Responsibility** and **Open/Closed** principl
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: State**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: State**: [Link](https://blog.stackademic.com/behavioral-design-patterns-state-a5c9991e3e4f)
 - 🎥 **YouTube Video – State Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [State in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/state)
 
@@ -787,7 +787,7 @@ This pattern promotes flexibility and adherence to the **Open/Closed Principle**
 ### 📚 Learn More
 
 - 📄 **Medium Article – 
-Behavioral Design Patterns: Strategy**: [Link](#)
+Behavioral Design Patterns: Strategy**: [Link](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-strategy-1f7b05a984ce)
 - 🎥 **YouTube Video – Strategy Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Strategy in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/strategy)
 
@@ -824,7 +824,7 @@ It follows the **Hollywood Principle**: “Don’t call us, we’ll call you.”
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Template Method**: [Link](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Template Method**: [Link](https://blog.stackademic.com/behavioral-design-patterns-template-method-af6afa3d624e)
 - 🎥 **YouTube Video – Template Method Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Template Method in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/templatemethod)
 
@@ -861,7 +861,7 @@ This pattern is especially useful when working with composite object structures 
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Visitor**: [Lnk](#)
+- 📄 **Medium Article – Behavioral Design Patterns: Visitor**: [Lnk](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-visitor-a4e87405615e)
 - 🎥 **YouTube Video – Visitor Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Visitor in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/visitor)
 
