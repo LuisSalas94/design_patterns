@@ -55,6 +55,7 @@ Manage communication and control flow between objects.
 - **Visitor**
 - **Mediator**
 - **Memento**
+- **Iterator**
 
 ---
 
