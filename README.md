@@ -862,7 +862,7 @@ This pattern is especially useful when working with composite object structures 
 
 ### 📚 Learn More
 
-- 📄 **Medium Article – Behavioral Design Patterns: Visitor**: [Lnk](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-visitor-a4e87405615e)
+- 📄 **Medium Article – Behavioral Design Patterns: Visitor**: [Link](https://medium.com/@luisfernandosalasg/behavioral-design-patterns-visitor-a4e87405615e)
 - 🎥 **YouTube Video – Visitor Design Pattern Explained**: [Coming Soon](#)
 - 📂 See the Java implementation: [Visitor in the repository](https://github.com/LuisSalas94/design_patterns/tree/main/src/main/java/org/fernando/behavioral/visitor)
 
